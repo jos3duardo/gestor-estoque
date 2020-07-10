@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e33a30d2-7e4f-48d4-b93f-e6e0aa9f5e2f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/sidebar.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +204,7 @@
       <workItem from="1566044258687" duration="4741000" />
       <workItem from="1586646686199" duration="225000" />
       <workItem from="1586647358064" duration="700000" />
-      <workItem from="1594396129890" duration="2271000" />
+      <workItem from="1594396129890" duration="2716000" />
     </task>
     <task id="LOCAL-00001" summary="subindo projeto com a tela de login criada">
       <created>1564189701451</created>
@@ -447,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594398289860</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="add google analytics nos outros layouts">
+      <created>1594398427113</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1594398427113</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,7 +470,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ajustes no css do login e cadastrar-se" />
     <MESSAGE value="melhorias nas telas de login e registro" />
     <MESSAGE value="arredondamento dos botoes das telas de login e register" />
     <MESSAGE value="correção do titulo" />
@@ -491,17 +494,18 @@
     <MESSAGE value="modificando nome na tela de login" />
     <MESSAGE value="add google analytics" />
     <MESSAGE value="alterando nome da aplicação" />
-    <option name="LAST_COMMIT_MESSAGE" value="alterando nome da aplicação" />
+    <MESSAGE value="add google analytics nos outros layouts" />
+    <option name="LAST_COMMIT_MESSAGE" value="add google analytics nos outros layouts" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="222" y="0" width="920" height="736" key="CommitChangelistDialog2" timestamp="1594398289745">
+    <state x="222" y="0" width="920" height="736" key="CommitChangelistDialog2" timestamp="1594398427028">
       <screen x="0" y="0" width="2732" height="739" />
     </state>
-    <state x="222" y="0" width="920" height="736" key="CommitChangelistDialog2/0.0.2732.739@0.0.2732.739" timestamp="1594398289745" />
-    <state x="278" y="103" width="808" height="533" key="Vcs.Push.Dialog.v2" timestamp="1594398291156">
+    <state x="222" y="0" width="920" height="736" key="CommitChangelistDialog2/0.0.2732.739@0.0.2732.739" timestamp="1594398427028" />
+    <state x="278" y="103" width="808" height="533" key="Vcs.Push.Dialog.v2" timestamp="1594398429276">
       <screen x="0" y="0" width="2732" height="739" />
     </state>
-    <state x="278" y="103" width="808" height="533" key="Vcs.Push.Dialog.v2/0.0.2732.739@0.0.2732.739" timestamp="1594398291156" />
+    <state x="278" y="103" width="808" height="533" key="Vcs.Push.Dialog.v2/0.0.2732.739@0.0.2732.739" timestamp="1594398429276" />
     <state x="438" y="271" width="487" height="197" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1594397475428">
       <screen x="0" y="0" width="2732" height="739" />
     </state>
