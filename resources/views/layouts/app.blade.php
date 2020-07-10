@@ -10,7 +10,7 @@
 
         gtag('config', 'UA-162661564-4');
     </script>
-
+    <meta name="description" content="Sistema de gestão de estoque">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
