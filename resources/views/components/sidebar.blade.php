@@ -1,9 +1,9 @@
 <div id="sidebar-wrapper">
     <div class="sidebar-heading">
-        <img src="/img/logo.png" alt=""><span>SISCOMPRAS</span> - <small>{{env('APP_VERSION')}}</small>
+        <img src="/img/logo.png" alt=""><span>{{ env('APP_NAME')}}</span> - <small>{{env('APP_VERSION')}}</small>
     </div>
     <div class="list-group list-group-flush">
-        <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-home"></i>Inicio</a>
+        <a href="/" class="list-group-item list-group-item-action"><i class="fas fa-home"></i>Inicio</a>
         <a href="#collapseEstoque" class="list-group-item list-group-item-action" data-toggle="collapse"  role="button" aria-expanded="false" aria-controls="collapseEstoque"><i class="fas fa-outdent"></i>Estoque</a>
             <div class="collapse sub-menu" id="collapseEstoque">
                 <div>

@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e33a30d2-7e4f-48d4-b93f-e6e0aa9f5e2f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gestor-estoque.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gestor-estoque.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/estoqueMovimento/_index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/estoqueMovimento/_index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,9 +16,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -139,7 +140,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -148,22 +148,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.env" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/clients" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/resources/views/products" />
       <recent name="$PROJECT_DIR$/resources/views/estoqueEntrada" />
       <recent name="$PROJECT_DIR$/resources/views/estoqueMovimento" />
-      <recent name="$PROJECT_DIR$/resources/views/estoqueSaida" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/clients" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Web Page.Unnamed">
@@ -209,6 +209,7 @@
       <workItem from="1566044258687" duration="4741000" />
       <workItem from="1586646686199" duration="225000" />
       <workItem from="1586647358064" duration="700000" />
+      <workItem from="1594396129890" duration="1281000" />
     </task>
     <task id="LOCAL-00001" summary="subindo projeto com a tela de login criada">
       <created>1564189701451</created>
@@ -427,27 +428,32 @@
       <option name="project" value="LOCAL" />
       <updated>1564527702221</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="modificando nome na tela de login">
+      <created>1594396299372</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1594396299372</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="subindo arquivo css e js" />
     <MESSAGE value="subindo logo" />
     <MESSAGE value="configurando telas de login e register para deixar responsivo" />
     <MESSAGE value="ajustes no css do login e cadastrar-se" />
@@ -472,7 +478,22 @@
     <MESSAGE value="correção de entrada para o valor do campo" />
     <MESSAGE value="correção do ponto" />
     <MESSAGE value="mensagem apos ação" />
-    <option name="LAST_COMMIT_MESSAGE" value="mensagem apos ação" />
+    <MESSAGE value="modificando nome na tela de login" />
+    <option name="LAST_COMMIT_MESSAGE" value="modificando nome na tela de login" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="222" y="0" width="920" height="736" key="CommitChangelistDialog2" timestamp="1594396299197">
+      <screen x="0" y="0" width="2732" height="739" />
+    </state>
+    <state x="222" y="0" width="920" height="736" key="CommitChangelistDialog2/0.0.2732.739@0.0.2732.739" timestamp="1594396299197" />
+    <state x="278" y="103" width="808" height="533" key="Vcs.Push.Dialog.v2" timestamp="1594396301126">
+      <screen x="0" y="0" width="2732" height="739" />
+    </state>
+    <state x="278" y="103" width="808" height="533" key="Vcs.Push.Dialog.v2/0.0.2732.739@0.0.2732.739" timestamp="1594396301126" />
+    <state x="346" y="60" width="672" height="678" key="search.everywhere.popup" timestamp="1594396521647">
+      <screen x="0" y="0" width="2732" height="739" />
+    </state>
+    <state x="346" y="60" width="672" height="678" key="search.everywhere.popup/0.0.2732.739@0.0.2732.739" timestamp="1594396521647" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
